@@ -1,0 +1,183 @@
+﻿@media (min-width : 1025px) {
+    body{
+        height:100%;
+        width:100%;
+        background-color:#A0A0A0;
+    }
+    .logo{
+        text-align:center;
+    }
+    .logo img{
+        text-align:center;
+        overflow:visible;
+        height:4%;
+        width:4%;
+    }
+    .intro{
+        margin-left:40%;
+        margin-right:40%;
+        margin-top:1%;
+        text-align:center;
+        padding-bottom: 5px;
+    }
+    .button{
+        margin-left:48%;
+        height:35px;
+        width:50px;
+        text-align:center
+    }
+    hr{
+        width:30%;
+        align-self:center;
+    }
+    .left {
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 20%;
+        position: absolute;
+    }
+    .mid {
+        text-align: left;
+        margin-left: 40%;
+        margin-top: 3%;
+        width: 20%;
+        text-align: center;
+        position: absolute;
+    }
+    .right {
+        text-align: left;
+        margin-left: 70%;
+        width: 20%;
+        float: right;
+        position: absolute;
+    }
+}
+@media (min-device-width : 767px) and (max-device-width : 1024px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: #A0A0A0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+        .logo img {
+            text-align: center;
+            height: 6%;
+            width: 6%;
+        }
+
+    .intro {
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 1%;
+        text-align: center;
+        padding-bottom: 5px;
+        font-size: 19px;
+    }
+
+    .button {
+        margin-left: 48%;
+        height: 60px;
+        width: 80px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    hr {
+        width: 30%;
+        align-self: center;
+    }
+
+    .left {
+        text-align: left;
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 30%;
+        position: absolute;
+        font-size: 19px;
+    }
+
+    .mid {
+        text-align: left;
+        margin-left: 34%;
+        margin-top: 3%;
+        width: 30%;
+        text-align: center;
+        position: absolute;
+        font-size: 19px;
+    }
+
+    .right {
+        text-align: left;
+        margin-left: 65%;
+        width: 30%;
+        float: right;
+        position: absolute;
+        font-size: 19px;
+    }
+}
+@media (min-device-width : 320px) and (max-device-width : 767px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background-color: #A0A0A0;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+        .logo img {
+            text-align: center;
+            overflow: visible;
+            height: 20%;
+            width: 20%;
+        }
+
+    .intro {
+        margin-top: 10%;
+        text-align: center;
+        padding-bottom: 5px;
+        font-size:30px;
+    }
+
+    .button {
+        margin-left: 43%;
+        height: 100px;
+        width: 150px;
+        text-align: center;
+        font-size:30px;
+        margin-top:10%
+    }
+
+    hr {
+        margin-top:10%;
+        width: 100%;
+        align-self: center;
+    }
+
+    .left {
+        margin-top: 10%;
+        width: 100%;
+        text-align:center;
+        font-size:30px;
+    }
+
+    .mid {
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .right {
+        margin-top: 10%;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+}
